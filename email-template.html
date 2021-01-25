@@ -9,6 +9,7 @@
     </head>
 
     <body>
+        <!-- cu div-urile risti putin sa fie ignorate pe anumiti user agents cu orice stil pe care tu te bazezi daca atribui pe el -->
         <div style="    height: 900px;
                         background-image: url(assets/bg.png);
                         background-size: contain;
@@ -48,6 +49,7 @@
                     </tr>
 
                     <tr>
+                        <!-- la fel si cu span-urile, daca un user agent nu le recunoste layout-ul tau nu va fi interpretat asa, nu vrei sa risti. De dorit aici sa avem 3 td-uri, mai sus sa folosim colspan, si putem apropia intre ele 30 cu % prin padding-uri -->
                         <td style=" font-family: Arial, Helvetica, sans-serif;
                                     font-size: 200px;
                                     font-weight: 800;
@@ -93,6 +95,7 @@
 
                     <tr>
                         <td style="line-height: 10px;">
+                            <!-- nu ai nevoie de pozitionate aici, este doar un element centrat -->
                             <button type="submit" style="   box-sizing: border-box;
                                                             padding: 20px 30px;
                                                             position: absolute;
