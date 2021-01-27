@@ -9,104 +9,112 @@
     </head>
 
     <body>
-        <!-- cu div-urile risti putin sa fie ignorate pe anumiti user agents cu orice stil pe care tu te bazezi daca atribui pe el -->
-        <div style="    height: 900px;
+        <table style="  height: 900px;
+                        width: 600px;
+                        table-layout: fixed;
                         background-image: url(assets/bg.png);
                         background-size: contain;
-                        background-repeat: no-repeat;">
+                        background-repeat: no-repeat;
+                        border-spacing: 0">
+            <tbody>
+                <tr> 
+                    <td colspan="3" style=" font-family: Arial, Helvetica, sans-serif;
+                                            font-size: 25px;
+                                            font-weight: 800;
+                                            text-align: center;
+                                            height: 10px;
+                                            padding-top: 50px;">CLICK TO IT!</td>
+                </tr>
 
-            <table style="  height: 900px;
-                            width: 600px;
-                            position: relative">
-                <tbody>
-                    <tr> 
-                        <td style=" font-family: Arial, Helvetica, sans-serif;
-                                    font-size: 25px;
-                                    font-weight: 800;
-                                    text-align: center;
-                                    height: 10px;
-                                    padding-top: 50px;">CLICK TO IT!</td>
-                    </tr>
+                <tr> 
+                    <td colspan="3" style=" font-family: Arial, Helvetica, sans-serif;
+                                            font-size: 25px;
+                                            font-weight: 400;
+                                            height: 10px;
+                                            padding: 20px 0px;
+                                            text-align: center;">SALE ENDS TUESDAY.</td>
+                </tr>
 
-                    <tr> 
-                        <td style=" font-family: Arial, Helvetica, sans-serif;
-                                    font-size: 25px;
-                                    font-weight: 400;
-                                    height: 10px;
-                                    padding: 20px 0px;
-                                    text-align: center;">SALE ENDS TUESDAY.</td>
-                    </tr>
+                <tr colspan="3"> 
+                    <td colspan="3" style=" font-family: Arial, Helvetica, sans-serif;
+                                            font-size: 40px;
+                                            font-weight: 800;
+                                            height: 10px;
+                                            text-align: center;
+                                            letter-spacing: 5px;
+                                            line-height: 15px;
+                                            padding-top: 70px;">EXTRA</td> 
+                </tr>
 
-                    <tr> 
-                        <td style=" font-family: Arial, Helvetica, sans-serif;
-                                    font-size: 40px;
-                                    font-weight: 800;
-                                    height: 10px;
-                                    text-align: center;
-                                    letter-spacing: 5px;
-                                    line-height: 15px;
-                                    padding-top: 70px;">EXTRA</td> 
-                    </tr>
-
-                    <tr>
+                <tr>
                         <!-- la fel si cu span-urile, daca un user agent nu le recunoste layout-ul tau nu va fi interpretat asa, nu vrei sa risti. De dorit aici sa avem 3 td-uri, mai sus sa folosim colspan, si putem apropia intre ele 30 cu % prin padding-uri -->
-                        <td style=" font-family: Arial, Helvetica, sans-serif;
-                                    font-size: 200px;
-                                    font-weight: 800;
-                                    text-align: center;
-                                    line-height: 5px;">30   <span style="font-size: 30px;
-                                                                        position: absolute;
-                                                                        top: 365px;
-                                                                        right: 220px">%</span>
-                                                            <span style=" font-size: 50px;
-                                                                        position: absolute;
-                                                                        top: 365px;
-                                                                        right: 105px">FF</span></td>
-                    </tr>
+                    <td style=" font-family: Arial, Helvetica, sans-serif;
+                                font-size: 200px;
+                                font-weight: 800;
+                                text-align: center;
+                                padding-left: 140px;
+                                padding-top: 50px;
+                                padding-bottom: 50px;
+                                line-height: 5px;">30 </td>
+                    <td style=" font-family: Arial, Helvetica, sans-serif;
+                                font-size: 40px;
+                                font-weight: 800;
+                                text-align: center;
+                                padding-left: 80px;
+                                padding-top: 50px;
+                                padding-bottom: 50px;
+                                line-height: 5px;"> % </td>  
+                    <td style=" font-family: Arial, Helvetica, sans-serif;
+                                font-size: 50px;
+                                font-weight: 800;
+                                text-align: left;
+                                padding: 0;
+                                line-height: 5px;
+                                padding-top: 50px;
+                                padding-bottom: 50px;
+                                margin-right: 100px;"> FF </td>          
+                </tr>
 
-                    <tr>
-                        <td style=" font-family: Arial, Helvetica, sans-serif;
-                                    font-size: 40px;
-                                    font-weight: 800;
-                                    height: 10px;
-                                    text-align: center;
-                                    letter-spacing: 5px;">EVERYTHING* </td>
-                    </tr>
+                <tr>
+                    <td colspan="3" style=" font-family: Arial, Helvetica, sans-serif;
+                                            font-size: 40px;
+                                            font-weight: 800;
+                                            height: 10px;
+                                            text-align: center;
+                                            letter-spacing: 5px;">EVERYTHING* </td>
+                </tr>
 
-                    <tr> 
-                        <td style=" font-family: Arial, Helvetica, sans-serif;
-                                    font-size: 25px;
-                                    font-weight: 100;
-                                    height: 10px;
-                                    text-align: center;
-                                    line-height: 10px;
-                                    padding: 30px 0;">WITH CODE SALE30</td>
-                    </tr>
+                <tr> 
+                    <td colspan="3" style=" font-family: Arial, Helvetica, sans-serif;
+                                            font-size: 25px;
+                                            font-weight: 100;
+                                            height: 10px;
+                                            text-align: center;
+                                            line-height: 10px;
+                                            padding: 30px 0;">WITH CODE SALE30</td>
+                </tr>
 
-                    <tr> 
-                        <td style=" font-family: Arial, Helvetica, sans-serif;
-                                    font-size: 25px;
-                                    font-weight: 100;
-                                    height: 10px;
-                                    line-height: 10px;
-                                    text-align: center;
-                                    padding-top: 50px;">ONLINE ONLY</td>
-                    </tr>
+                <tr> 
+                    <td colspan="3" style=" font-family: Arial, Helvetica, sans-serif;
+                                            font-size: 25px;
+                                            font-weight: 100;
+                                            height: 10px;
+                                            line-height: 10px;
+                                            text-align: center;
+                                            padding-top: 50px;">ONLINE ONLY</td>
+                </tr>
 
-                    <tr>
-                        <td style="line-height: 10px;">
+                <tr>
+                    <td colspan="3" style="line-height: 10px;
+                                            text-align: center;">
                             <!-- nu ai nevoie de pozitionate aici, este doar un element centrat -->
-                            <button type="submit" style="   box-sizing: border-box;
-                                                            padding: 20px 30px;
-                                                            position: absolute;
-                                                            left: 170px;
-                                                            bottom: 80px;
-                                                            font-size: 30px;
-                                                            font-weight: 800;
-                                                            background-color: transparent;"> SHOP NOW </button></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>    
+                        <button type="submit" style="   box-sizing: border-box;
+                                                        padding: 20px 30px;
+                                                        font-size: 30px;
+                                                        font-weight: 800;
+                                                        background-color: transparent;"> SHOP NOW </button></td>
+                </tr>
+            </tbody>
+        </table>   
     </body>
 </html>
